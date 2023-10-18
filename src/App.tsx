@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
-import Amount from "../src/components/Amount/Amount"
+import LandingPage from './pages/LandingPage';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-       <Amount /> 
-      </header>
+    <LandingPage />
+
     </div>
   );
 }
