@@ -4,8 +4,10 @@ import MenuList from "../components/MenuList/MenuList";
 
 function LandingPage() {
 
-    return (<>
-        <MenuList />
+    return (
+        <>
+            <MenuList />
+            
         </>
     )
 }
