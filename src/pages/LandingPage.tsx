@@ -1,10 +1,12 @@
 import "./LandingPage.scss"
-import Amount from "../components/Amount/Amount"
+
+import MenuList from "../components/MenuList/MenuList";
 
 function LandingPage() {
 
-    return (
-        <Amount />
+    return (<>
+        <MenuList />
+        </>
     )
 }
 
