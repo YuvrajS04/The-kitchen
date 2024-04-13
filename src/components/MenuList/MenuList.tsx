@@ -4,7 +4,7 @@ import { MenuItem, addItem, removeItem } from '../../redux/menuSlice'
 import { useSelector, useDispatch } from "react-redux";
 
 const MenuList: React.FC = () => {
-    const menuItems = useSelector((state: RootState) => state.menu.items);
+    const menuItems = useSelector((state: RootState) => state.items);
     const dispatch = useDispatch();
     const handleAddItem = (id: number) => {
         dispatch(addItem({ id, quantity: 1 }));
