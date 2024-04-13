@@ -1,6 +1,7 @@
 import { RootState } from "../redux/store";
-import { addItem, removeItem } from "../redux/menuSlice"
-import { useSelector, useDispatch } from "react-redux"
+import { addItem, removeItem } from "../redux/menuSlice";
+import { useSelector, useDispatch } from "react-redux";
+import {Link} from "react-router-dom";
 
 function Checkout(){
     const menuItems = useSelector((state: RootState) => state.items);
@@ -15,6 +16,7 @@ function Checkout(){
     return (
         <>
         <div>
+            <Link to="/" >Return to Menu</Link>
             <p>
                 Checkout Page
             </p>
