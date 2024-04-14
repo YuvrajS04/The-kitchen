@@ -27,6 +27,9 @@ function Checkout(){
                 <button onClick={()=> handleAddItem(item.id)} >AddItem</button>
                 <button onClick={()=> handleRemoveItem(item.id)} >RemoveItem</button>
                 <p>{item.price}</p>
+                <label htmlFor="specialInstructions" > Special instructions: 
+                <input type="text" id="specialInstructions" placeholder="allergies, ingredient substitution etc..."></input>
+                </label>
             </div>)}
             <h4>Total Price: {calculateTotalPrice()}</h4>
             </div>
