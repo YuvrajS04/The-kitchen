@@ -1,3 +1,4 @@
+import "./MenuList.scss"
 import React from "react";
 import { RootState } from "../../redux/store";
 import { MenuItem, addItem, removeItem } from '../../redux/menuSlice'
@@ -15,10 +16,10 @@ const MenuList: React.FC = () => {
     };
 
     return (
-        <div className="MenuList">
+        <div className="menu">
             {menuItems.map((item: MenuItem) => (
                 <>
-                <div key={item.id}>
+                <div className="menu_item" key={item.id}>
                     <div>{item.name}</div>
                     <div>{item.description}</div>
                     <div>Price: ${item.price.toFixed(2)}</div>
