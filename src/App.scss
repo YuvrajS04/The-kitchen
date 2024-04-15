@@ -1,0 +1,10 @@
+@use "./styles/partials/mixins" as *;
+@import "./styles/partials/variables";
+@import "./styles/partials/fonts";
+
+$font-family: "Calibre";
+
+* {
+    box-sizing: border-box;
+    font-family: $font-family;
+}
