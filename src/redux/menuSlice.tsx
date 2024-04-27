@@ -78,6 +78,13 @@ const initialState: { items: MenuItem[] } = {
         "description": "Decadent chocolate fondue served with a variety of dipping treats.",
         "price": 9.99,
         "quantity": 0
+    },
+    {
+        "id": 11,
+        "name": "Oreo Cheesecake",
+        "description": "Indulge in our heavenly Oreo Cheesecake, a fusion of creamy richness and crunchy delight, perfect for satisfying your sweet cravings.",
+        "price": 9.99,
+        "quantity": 0
     }],
    
 };
